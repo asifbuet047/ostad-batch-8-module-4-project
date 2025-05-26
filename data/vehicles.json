@@ -1,26 +1,32 @@
 [
-  {
-    "name": "Toyota Camry",
-    "type": "Sedan",
-    "price": 24425,
-    "image": "https://example.com/images/toyota_camry.jpg"
-  },
-  {
-    "name": "Ford F-150",
-    "type": "Truck",
-    "price": 29040,
-    "image": "https://example.com/images/ford_f150.jpg"
-  },
-  {
-    "name": "Honda Accord",
-    "type": "Sedan",
-    "price": 26720,
-    "image": "https://example.com/images/honda_accord.jpg"
-  },
-  {
-    "name": "Tesla Model 3",
-    "type": "Electric Sedan",
-    "price": 39990,
-    "image": "https://example.com/images/tesla_model3.jpg"
-  }
+    {
+        "name": "Toyota Camry",
+        "type": "Sedan",
+        "price": 24425,
+        "image": "https:\/\/example.com\/images\/toyota_camry.jpg"
+    },
+    {
+        "name": "Ford F-150",
+        "type": "Truck",
+        "price": 29040,
+        "image": "https:\/\/example.com\/images\/ford_f150.jpg"
+    },
+    {
+        "name": "Honda Accord",
+        "type": "Sedan",
+        "price": 26720,
+        "image": "https:\/\/example.com\/images\/honda_accord.jpg"
+    },
+    {
+        "name": "Tesla Model 3",
+        "type": "Electric Sedan",
+        "price": 39990,
+        "image": "https:\/\/example.com\/images\/tesla_model3.jpg"
+    },
+    {
+        "name": "BMW",
+        "type": "Car",
+        "price": 5000000,
+        "image": "https:\/\/example.com\/bmw.jpg"
+    }
 ]

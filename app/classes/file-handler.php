@@ -2,21 +2,21 @@
 
 trait FileHandler
 {
-    private $FILE_PATH = "app/data/vechicles.json";
+    private $FILE_PATH = __DIR__ . "/../../data/vehicles.json";
 
     public function readJsonFile(): array
     {
         try {
+
             if (file_exists($this->FILE_PATH)) {
                 $jsonContent = json_decode(file_get_contents($this->FILE_PATH), true);
                 if (json_last_error() === JSON_ERROR_NONE) {
-                    echo "File read successfully: " . $this->FILE_PATH;
                     return $jsonContent;
                 } else {
                     throw new Exception("Error decoding JSON: " . json_last_error_msg());
                 }
             } else {
-                echo "File not found: " . $this->FILE_PATH;
+                echo "<br>File not found: </br>";
                 return [];
             }
         } catch (Exception $error) {

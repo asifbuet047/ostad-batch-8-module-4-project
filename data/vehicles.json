@@ -12,10 +12,10 @@
         "image": "https:\/\/example.com\/images\/ford_f150.jpg"
     },
     {
-        "name": "Tesla Model 3",
-        "type": "Electric Sedan",
-        "price": 39990,
-        "image": "https:\/\/example.com\/images\/tesla_model3.jpg"
+        "name": "Tesla Model S",
+        "type": "Electric",
+        "price": 150000,
+        "image": "https:\/\/example.com\/tesla-vehicle.jpg"
     },
     {
         "name": "BMW",

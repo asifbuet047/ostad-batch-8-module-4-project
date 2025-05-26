@@ -61,12 +61,12 @@ class VehicleManager extends VehicleBase implements VehicleActions
         }
     }
 
-    public function deleteVehicle(int $index): bool
+    public function deleteVehicle(int $id): bool
     {
         $existingVehicles = $this->readJsonFile();
-        if (isset($existingVehicles[$index])) {
-            unset($existingVehicles[$index]);
-            $existingVehicles = array_values($existingVehicles); // Re-index the array
+        if (isset($existingVehicles[$id - 1])) {
+            unset($existingVehicles[$id - 1]);
+            $existingVehicles = array_values($existingVehicles);
             return $this->writeJsonFile($existingVehicles);
         } else {
             return false;

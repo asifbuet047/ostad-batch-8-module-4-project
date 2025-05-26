@@ -12,12 +12,6 @@
         "image": "https:\/\/example.com\/images\/ford_f150.jpg"
     },
     {
-        "name": "Honda Accord",
-        "type": "Sedan",
-        "price": 26720,
-        "image": "https:\/\/example.com\/images\/honda_accord.jpg"
-    },
-    {
         "name": "Tesla Model 3",
         "type": "Electric Sedan",
         "price": 39990,
